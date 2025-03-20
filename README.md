@@ -8,7 +8,6 @@ Bienvenue dans **Sudoku Web App**, une application web interactive permettant de
 ✅ Différents niveaux de difficulté (Facile, Moyen, Difficile)  
 ✅ Interface utilisateur responsive et intuitive  
 ✅ Sauvegarde de la progression en local  
-✅ Mode sombre et clair  
 
 ## 🛠️ Technologies utilisées
 
