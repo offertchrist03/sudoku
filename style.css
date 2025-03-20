@@ -1,0 +1,91 @@
+:root {
+  --border-1: #000000;
+  --border-2: #a5a5a5;
+  --bg: #ffffff;
+  --bg-selected: #95a9ff;
+  --bg-disabled: #f0e9e9;
+  --bg-hover: #d6e1ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputs-app {
+  width: 25em;
+  max-width: 90%;
+  border: 1px solid var(--border-1);
+  background: var(--border-1);
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 1px;
+}
+
+.main-app {
+  width: 25em;
+  max-width: 90%;
+  aspect-ratio: 1/1;
+  border: 1px solid var(--border-1);
+  background: var(--border-1);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1px;
+}
+
+.square {
+  background: var(--border-2);
+  inset: 1px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1px;
+}
+
+.square-span {
+  background: var(--bg);
+  inset: 1px;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+}
+
+.square-span.selected {
+  cursor: default;
+  background: var(--bg-selected);
+  border-color: rgba(65, 105, 225, 1);
+  font-weight: bold;
+}
+
+.square-span.disabled {
+  cursor: default;
+  background: var(--bg-disabled);
+}
+
+.square-span:not(.disabled):not(.selected) {
+  cursor: pointer;
+  font-weight: bold;
+  color: royalblue;
+}
+
+.square-span:not(.disabled):not(.selected):hover {
+  background: var(--bg-hover);
+}
