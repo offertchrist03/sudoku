@@ -12,7 +12,7 @@ Bienvenue dans **Sudoku Web App**, une application web interactive permettant de
 ## 🛠️ Technologies utilisées
 
 - **Main App** : HTML, CSS, JS (en cours)  
-- **Déploiement** : Vercel, Netlify ou autre service cloud (en cours)  
+- **Déploiement** : Vercel (en cours)  
 
 ## 📥 Installation et exécution
 
