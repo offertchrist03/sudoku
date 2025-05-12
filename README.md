@@ -5,9 +5,9 @@ Bienvenue dans **Sudoku Web App**, une application web interactive permettant de
 ## 🚀 Fonctionnalités
 
 ✅ Génération dynamique de grilles de Sudoku  
-✅ Diférentes difficultés (en cours)
+✅ Diférentes difficultés (en cours)  
 ✅ Interface utilisateur responsive et intuitive  
-✅ Sauvegarde de la progression en local (en cours)
+✅ Sauvegarde de la progression en local (en cours)  
 
 ## 🛠️ Technologies utilisées
 
