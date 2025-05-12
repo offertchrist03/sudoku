@@ -5,14 +5,14 @@ Bienvenue dans **Sudoku Web App**, une application web interactive permettant de
 ## 🚀 Fonctionnalités
 
 ✅ Génération dynamique de grilles de Sudoku  
-✅ Différents niveaux de difficulté (Facile, Moyen, Difficile)  
+✅ Diférentes difficultés (en cours)
 ✅ Interface utilisateur responsive et intuitive  
-✅ Sauvegarde de la progression en local  
+✅ Sauvegarde de la progression en local (en cours)
 
 ## 🛠️ Technologies utilisées
 
-- **Main App** : HTML, CSS, JS (en cours)  
-- **Déploiement** : Vercel (en cours)  
+- **Main App** : HTML, CSS, JS
+- **Déploiement** : Vercel (https://sudoku-co.vercel.app/)
 
 ## 📥 Installation et exécution
 
